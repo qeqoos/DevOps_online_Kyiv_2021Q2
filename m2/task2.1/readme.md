@@ -21,7 +21,7 @@ I chose ubuntu, gave it 3 GB of RAM, 2 processors and 15 GB of hard drive.
 
 <p>Here it is up and running:</p>
 
-<img src="./screenshots/1.4.2.png" width="1920" height="900">
+<img src="./screenshots/1.4.2.png" width="1920" height="1080">
 
 <p>Next step is cloning virtual machine.</p>
 
@@ -35,7 +35,7 @@ I chose ubuntu, gave it 3 GB of RAM, 2 processors and 15 GB of hard drive.
 This allows me to restore previous states of virtual machine.
 </p>
 
-<img src="./screenshots/1.7.png" width="1920" height="900">
+<img src="./screenshots/1.7.png" width="1920" height="1080">
 
 <p>I exported first VM and created .ova file, which stands for Open Virtual Appliance.</p>
 
@@ -54,7 +54,7 @@ You can manually choose device, or set up filter.
 
 <p>Here you can see it in my guest OS.</p>
 
-<img src="./screenshots/2.2.2.png" width="1920" height="900">
+<img src="./screenshots/2.2.2.png" width="1920" height="1080">
 
 <p>I created shared folder to exchange files between host and guest.<br>
 Option <code>--automount</code> just automatically mounts shared folder on OS startup.
@@ -64,7 +64,7 @@ Option <code>--automount</code> just automatically mounts shared folder on OS st
 
 <p>Here it is in action.</p>
 
-<img src="./screenshots/2.3.2.png" width="1920" height="900">
+<img src="./screenshots/2.3.2.png" width="1920" height="1080">
 
 <p>Next part is configuration of network mods. I tested 4 network modes: </p>
 
@@ -85,38 +85,38 @@ Guests can ping each other, but cannot access internet.
 
 <p>Here we can see, that guests can ping host.</p>
 
-<img src="./screenshots/2.4.1hostonly.png" width="1920" height="900">
+<img src="./screenshots/2.4.1hostonly.png" width="1920" height="1080">
 
 <p>Host can ping second VM. First VM can ping second VM.<br>
 Second VM cannot ping <code>8.8.8.8</code> (google dns).
 </p>
 
-<img src="./screenshots/2.4.2hostonly.png" width="1920" height="900">
+<img src="./screenshots/2.4.2hostonly.png" width="1920" height="1080">
 
 <p>Internal mode. Guest VMs only can ping each other.<br>
 We can see, that there were attempts to ping host and google.com.
 </p>
 
-<img src="./screenshots/2.4internal.png" width="1920" height="900">
+<img src="./screenshots/2.4internal.png" width="1920" height="1080">
 
 <p>Bridged mode. VMs can ping each other, host and google.com.<br>
 Here first VM pings second VM.
 </p>
 
-<img src="./screenshots/2.4.1bridged.png" width="1920" height="900">
+<img src="./screenshots/2.4.1bridged.png" width="1920" height="1080">
 
 <p>Access to the network.</p>
 
-<img src="./screenshots/2.4.2bridged.png" width="1920" height="900">
+<img src="./screenshots/2.4.2bridged.png" width="1920" height="1080">
 
 <p>Host pings second VM.</p>
 
-<img src="./screenshots/2.4.3bridged.png" width="1920" height="900">
+<img src="./screenshots/2.4.3bridged.png" width="1920" height="1080">
 
 <p>NAT mode. VMs cannot ping each other.<br>
 VMs can ping host and google.com.</p>
 
-<img src="./screenshots/2.4.1NAT.png" width="1920" height="900">
+<img src="./screenshots/2.4.1NAT.png" width="1920" height="1080">
 
 <p>I also worked with Virtual box through command line.<br>
 Here I tried basic commands for starting VM, output list of VMs.
@@ -141,7 +141,7 @@ After that, start Vagrant VM with <code>vagrant up</code>.
 After successful connection I executed command `date` to ensure, that everything works.
 </p>
 
-<img src="./screenshots/vagrant2.png" width="1000" height="900">
+<img src="./screenshots/vagrant2.png" width="1000" height="700">
 
 <p>After testing, I stopped and deleted VM.</p>
 
