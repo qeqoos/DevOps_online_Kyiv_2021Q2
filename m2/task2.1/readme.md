@@ -85,38 +85,38 @@ Guests can ping each other, but cannot access internet.
 
 <p>Here we can see, that guests can ping host.</p>
 
-<img src="./screenshots/2.4.1hostonly.png" width="1920" height="1080">
+<img src="./screenshots/2.4.1hostonly.png" width="1500" height="600">
 
 <p>Host can ping second VM. First VM can ping second VM.<br>
 Second VM cannot ping <code>8.8.8.8</code> (google dns).
 </p>
 
-<img src="./screenshots/2.4.2hostonly.png" width="1920" height="1080">
+<img src="./screenshots/2.4.2hostonly.png" width="1500" height="600">
 
 <p>Internal mode. Guest VMs only can ping each other.<br>
 We can see, that there were attempts to ping host and google.com.
 </p>
 
-<img src="./screenshots/2.4internal.png" width="1920" height="1080">
+<img src="./screenshots/2.4internal.png" width="1500" height="600">
 
 <p>Bridged mode. VMs can ping each other, host and google.com.<br>
 Here first VM pings second VM.
 </p>
 
-<img src="./screenshots/2.4.1bridged.png" width="1920" height="1080">
+<img src="./screenshots/2.4.1bridged.png" width="1500" height="600">
 
 <p>Access to the network.</p>
 
-<img src="./screenshots/2.4.2bridged.png" width="1920" height="1080">
+<img src="./screenshots/2.4.2bridged.png" width="1500" height="600">
 
 <p>Host pings second VM.</p>
 
-<img src="./screenshots/2.4.3bridged.png" width="1920" height="1080">
+<img src="./screenshots/2.4.3bridged.png" width="1500" height="600">
 
 <p>NAT mode. VMs cannot ping each other.<br>
 VMs can ping host and google.com.</p>
 
-<img src="./screenshots/2.4.1NAT.png" width="1920" height="1080">
+<img src="./screenshots/2.4.1NAT.png" width="1500" height="600">
 
 <p>I also worked with Virtual box through command line.<br>
 Here I tried basic commands for starting VM, output list of VMs.
