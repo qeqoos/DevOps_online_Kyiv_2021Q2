@@ -138,7 +138,7 @@ After that, start Vagrant VM with <code>vagrant up</code>.
 <img src="./screenshots/vagrant1.png" width="900" height="900">
 
 <p>Connection to Vagrant VM has been established through SSH using <strong>MobaXtrem</strong>.<br>
-After successful connection I executed command `date` to ensure, that everything works.
+After successful connection I executed command <code>date</code> to ensure, that everything works.
 </p>
 
 <img src="./screenshots/vagrant2.png" width="1000" height="700">
@@ -147,8 +147,9 @@ After successful connection I executed command `date` to ensure, that everything
 
 <img src="./screenshots/vagrant3.png" width="600" height="80">
 
-<p>I created another Vagrant box using <code>vagrant box add ubuntu/trusty64</code>.<br>
-Then I launched it, tested work and deleted it.
+<p>To create my own vagrant box, firstly I created new VM - Ubuntu Server.<br>
+Then I opened powershell and typed <code>vagrant package --base 'LinuxVagrant' --output PavelsBox_template</code>.<br>
+This command creates template of my VM. Now I can create VMs off of my template using vagrant. 
 </p>
 
 <img src="./screenshots/vagrant4.png" width="900" height="900">
