@@ -73,11 +73,15 @@ To log into Wordpress Admin Page, I need bitnami password. It is located in:
 
 <img src="./screenshots/s3_3.png">
 
-<p>I created IAM user Pavel_Admin with Programmatic access and AdministratorAccess.</p>
+<p>I created IAM user Pavel_Admin with Programmatic access and AdministratorAccess.<br>
+Downloaded .csv file with credentials.
+</p>
 
 <img src="./screenshots/iam_1.png">
 
-<p>In order to use AWS CLI, I installed AWSCLI and configured it with <code>aws configure</code>.</p>
+<p>In order to use AWS CLI, I installed AWSCLI and configured it with <code>aws configure</code>.<br>
+I entered corresponding information into cmd.
+</p>
 
 <img src="./screenshots/iam_2.png">
 
@@ -95,22 +99,22 @@ To log into Wordpress Admin Page, I need bitnami password. It is located in:
 
 <p>Next, new S3 bucket was created. It will contain HTML page and all materials used for it.</p>
 
-<img src="./screenshots/15-1.png">
+<img src="./screenshots/15_1.png">
 
 <p>To upload necessary files, I executed next commands:</p>
 
-<img src="./screenshots/15-3.png">
+<img src="./screenshots/15_3.png">
 
 <p>Now, I enable static web hosting for my bucket and specified default page for it:</p>
 
-<img src="./screenshots/15-2.png">
+<img src="./screenshots/15_2.png">
 
 <p>In order for people to be able to access my webpage, I edited access settings and disabled blocking of public access.<br>
 It is also necessary to edit bucket policy. I created JSON with required template, and pasted it to <code>bucket policy</code> field.
 </p>
 
-<img src="./screenshots/15-4.png">
+<img src="./screenshots/15_4.png">
 
 <p>Here you can access my webpage using this URL: <a href="http://pavel-webbucket.s3-website.eu-central-1.amazonaws.com">click here</a></p>
 
-<img src="./screenshots/15-5.png">
+<img src="./screenshots/15_5.png">
