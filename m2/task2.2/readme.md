@@ -1,5 +1,6 @@
 # Task 2.2
 
+
 <p>I created Linux Virtual Machine using Amazon Lightsail by following tutorial.</p>
 
 <img src="./screenshots/lightsail.png">
@@ -26,17 +27,18 @@ For all VMs, availability zone is <code>eu-central-1a</code> on Frankfurt.
 
 <p>I made additional volume for 1GB in the same zone, that I can attach to different VMs.</p>
 
-<img src="./screenshots/attach1.png">
+<p><img src="./screenshots/attach1.png"></p>
 
-<p>For the correct attachment, I used commands:</p>
-* `sudo mkfs -t xfs /dev/xvdf` - creates file system on the volume.
-* `sudo mkdir /data` and `sudo mount /dev/xvdf /data` - locate volume in data and mount volume.
+<p>For the correct attachment, I used commands:
+
+* <code>sudo mkfs -t xfs /dev/xvdf</code> - creates file system on the volume.
+* <code>sudo mkdir /data</code> and <code>sudo mount /dev/xvdf /data</code> - locate volume in data and mount volume.
 
 <p>Put text file <code>file_in_Disk_D</code> into /data:</p>
 
 <img src="./screenshots/attach2.png">
 
-<p>I createn new VM using the image from snapshot.</p>
+<p>I created new VM using the image from snapshot.</p>
 
 <img src="./screenshots/from-backup1.png">
 
@@ -46,7 +48,7 @@ For all VMs, availability zone is <code>eu-central-1a</code> on Frankfurt.
 
 <img src="./screenshots/reattach1.png">
 
-<p>Mount is required, so I do `sudo mkdir /newdata` and `sudo mount /dev/xvdf /newdata`.</p>
+<p>Mount is required, so I do <code>sudo mkdir /newdata</code> and <code>sudo mount /dev/xvdf /newdata</code>.</p>
 
 <img src="./screenshots/reattach2.png">
 
