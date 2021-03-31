@@ -1,7 +1,7 @@
 ## Task 3.1
 
 
-###### Part 1
+#### Part 1
 
 First task was to install MySQL. I have done it with a noninstall ZIP.
 All the necessary manipulations have been done to launch mysql server:
@@ -24,7 +24,7 @@ I tried some SELECT variants with WHERE, GROUP BY to get different data:
 
 <p><img src="./screenshots/select.png"></p>
 
-I have tried queries of DCL (data definition language) - CREATE, ALTER, DROP, RENAME and
+I have tried queries of DDL (data definition language) - CREATE, ALTER, DROP, RENAME and
 DML (data manipulation language) - SELECT, INSERT, DELETE during the creation of database.
 
 I tried to do queries of DCL (data control language):
@@ -49,7 +49,7 @@ I made a selection from db table of mysql database:
 
 <p><img src="./screenshots/from_mysql.db.png"></p>
 
-###### Part 2
+#### Part 2
 
 To create backup of my database, I used `mysqldump.exe shop > shop_db.sql -uroot -p`.
 I deleted few records from table, and then the table itself:
@@ -65,10 +65,11 @@ To transfer my database to AWS RDS, first step is to create database instance on
 
 <p><img src="./screenshots/rds1.png"></p>
 
-Then, I upload my local database to RDS using command:
-`mysql -u admin -p -h shop-db.c6tzqo3q.eu-central-1.rds.amazonaws.com -D shop < shop_db.sql`.
-And connect to it using command:
-`mysql -h shop-db.c6tzq3u5qo3q.eu-central-1.rds.amazonaws.com -P 3306 -u admin -p`.
+<p>Then, I upload my local database to RDS using command:<br>
+<code>mysql -u admin -p -h shop-db.c6tzqo3q.eu-central-1.rds.amazonaws.com -D shop < shop_db.sql</code>.<br>
+And connect to it using command:<br>
+<code>mysql -h shop-db.c6tzq3u5qo3q.eu-central-1.rds.amazonaws.com -P 3306 -u admin -p</code>.
+</p>
 
 <p><img src="./screenshots/rds2.png"></p>
 
@@ -76,10 +77,11 @@ Here, I executed a couple of `SELECT` queries:
 
 <p><img src="./screenshots/rds3.png"></p>
 
-To save database dump of my database from RDS, I execute next command in my cmd:
-`mysqldump.exe -u admin -p -h shop-db.c6tzq3u5qo3q.eu-central-1.rds.amazonaws.com shop > C:\mysql\shop_from_rds.sql` 
+<p>To save database dump of my database from RDS, I execute next command in my cmd:<br>
+<code>mysqldump.exe -u admin -p -h shop-db.c6tzq3u5qo3q.eu-central-1.rds.amazonaws.com shop > C:\mysql\shop_from_rds.sql</code> 
+</p>
 
-###### Part 3
+#### Part 3
 
 I created DynamoDB table 'Music' and filled it with some data.
 
