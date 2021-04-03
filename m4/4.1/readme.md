@@ -8,8 +8,7 @@ The reason is that it works on the physical layer of OSI model.
 I configured PCs using instructions, entered IP-addresses for them. 
 Here, I tested the work of the topology. 
 
-![](./screenshots/hub.mp4)
-<!-- <p><video><source src="./screenshots/hub.mp4"></video></p> -->
+![](./screenshots/hub.gif)
 
 If I remove IP addresses from PCs and try to ping, I will get error message:
 
@@ -28,16 +27,15 @@ therefore sending packet to 1 PC, not for all connected devices.
 
 ARP packets are sent before ping. They are used to get to know the MAC-address of PC.
 
-![](./screenshots/switch1.mp4)
-<!-- <p><video><source src="./screenshots/switch1.mp4"></video></p> -->
+![](./screenshots/switch1.gif)
 
-![](./screenshots/switch2.mp4)
-<!-- <p><video><source src="./screenshots/switch2.mp4"></video></p>	 -->
+
+![](./screenshots/switch2.gif)
+
 
 I divided 2 networks using router. Therefore, I entered new IP-addresses for PCs as well as for router interfaces.
 Router works on network layer and sends packets using IP-addresses. 
 
-![](./screenshots/router.mp4)
-<!-- <p><video><source src="./screenshots/router.mp4"></video></p>	 -->
+![](./screenshots/router.gif)
 
 We can configure router to use routing protocols, configuring vlans and much more.
