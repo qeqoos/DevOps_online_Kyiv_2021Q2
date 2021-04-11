@@ -19,7 +19,7 @@ To list all commands executed by certain user, command
 <p><img src="./screenshots/users_commands.png"></p>
 
 To change info about myself, I used command `chfn` with different flags.
-To view changes, execute command `finger -l`
+To view changes, execute command `finger -l`.
 
 <p><img src="./screenshots/change_info.png"></p>
 
@@ -64,7 +64,7 @@ We can list all (hidden) files or only directories with specific keys.
 `cd ~` or `cd` is used to access home directory from anywhere. `..` parent dir, `.` is current dir.
 I created `epam` dir in `home`. I performed set of commands listed in screenshot. `cp` is used to copy files.
 I renamed one of the files using `mv old_name new_name` command from other terminal.
-`rm -R` is used for recursive delerion of directory.
+`rm -R` is used for recursive deletion of directory.
 
 <p><img src="./screenshots/epam_dir.png"></p>
 
@@ -120,7 +120,7 @@ Next, I have learned about types of files. For Linux, everything is a file.
 To find out what type does certain file have, `file` command is used.
 Here is the list of types of files:
 
-<p><img src="./screenshots/files_types.png"></p>
+<p><img src="./screenshots/file_types.png"></p>
 
 To list 5 most recently accessed:
 
