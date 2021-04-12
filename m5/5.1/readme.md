@@ -124,7 +124,7 @@ Here is the list of types of files:
 
 To list 5 most recently accessed:
 
-* files in /etc/ - `ls -tu /etc/ | head -5`.
-* directories in /etc/ -  `ls -dtu /etc/*/ | head -5`.
+* files in /etc/ - `sudo ls -utl /etc/ -p | grep -v / | head -6`.
+* directories in /etc/ -  `sudo ls -dutl /etc/*/ | head -5`.
 
 <p><img src="./screenshots/last5.png"></p>
