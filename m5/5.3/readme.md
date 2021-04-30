@@ -30,7 +30,7 @@ Statuses of processes shown above are:
 * L - has pages locked into memory (for real-time and custom IO)
 * s - is a session leader
 * l - is multi-threaded 
-* + - is in the foreground process group.
+* `+` - is in the foreground process group.
 
 To display processes of specific user, I used `ps -u <username>`
 
@@ -109,7 +109,7 @@ After command `fg 3` top command comes back on screen.
 
 #### Part 2
 
-First od all, I tested connection through ssh using OpenSSH client. I connected to my VM `192.168.0.108`. Also, I created and copied file from server to host using `scp.exe`.
+First of all, I tested connection through ssh using OpenSSH client. I connected to my VM `192.168.0.108`. Also, I created and copied file from server to host using `scp.exe`.
 
 <p><img src="./screenshots/ssh1.png"></p>
 
