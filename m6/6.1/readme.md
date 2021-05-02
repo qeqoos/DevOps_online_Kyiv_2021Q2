@@ -29,7 +29,7 @@ Next, I enabled IP forwarding on VM1 by uncommenting line in `etc/sysctl.conf`:
 
 After that, I created new rules in `iptables` to forward packets:
 
-<p><img src="./screenshots/iptables.png"></p>
+<p><img src="./screenshots/iptables1.png"></p>
 
 <p><img src="./screenshots/masq.png"></p>
 
