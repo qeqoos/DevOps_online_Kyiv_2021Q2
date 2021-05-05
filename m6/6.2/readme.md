@@ -8,6 +8,8 @@ First, I configured DHCP using VBoxManage. I need to create dhcpserver:
 I chose every internal adapter to use `myDHCP`. In VMs, in `/etc/network/interfaces/` change static addresses of interfaces to dhcp.
 Restart interfaces (ifdown, ifup).
 
+<p><img src="./screenshots/internalDHCP.png"></p>
+
 Result of VBoxManage approach:
 
 <p><img src="./screenshots/vboxmanageSHOW.png"></p>
@@ -20,6 +22,8 @@ Next, I configured `dnsmasq` service. I made VM1 Internal interface static IP, t
 <p><img src="./screenshots/dhcpmasq1.png"></p>
 
 To demonstrate, in VM settings, I chose `intnet`.
+
+<p><img src="./screenshots/internalINTNET.png"></p>
 
 <p><img src="./screenshots/dhcpmasq2.png"></p>
 
