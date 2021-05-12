@@ -1,5 +1,18 @@
 ## Task 7.1
 
+#### Part A
+
+I created script with 3 functions and if operator.
+I check amount of args and args themselves to produce corresponding output:
+
+<p><img src="./screenshots/partA_result.png"></p>
+
+Script:
+
+<p><img src="./screenshots/partA_script.png"></p>
+
+#### Part B
+
 1) Output of IP, that made the most requests and number of requests:
 
 <p><img src="./screenshots/t1result.png"></p>
